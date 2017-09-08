@@ -10,7 +10,7 @@
 # !
 # ! Based on: https://github.com/Valodim/zsh-curl-completion/blob/master/_curl
 # !
-# ! Generated on: 2017-09-08T14:02:08.289-07:00
+# ! Generated on: 2017-09-08T14:03:42.216-07:00
 # !
 # !
 # ! Installation:
@@ -317,14 +317,14 @@ case $state in
       deleteWebhook)
         local -a _op_arguments
         _op_arguments=(
-          "webhookId=:[PATH] The webhook ID"
+          "webhookId=:[PATH] The ID of the webhook"
                     )
         _describe -t actions 'operations' _op_arguments -S '' && ret=0
         ;;
       getWebhook)
         local -a _op_arguments
         _op_arguments=(
-          "webhookId=:[PATH] The webhook ID"
+          "webhookId=:[PATH] The ID of the webhook"
                     )
         _describe -t actions 'operations' _op_arguments -S '' && ret=0
         ;;
@@ -337,7 +337,7 @@ case $state in
       patchWebhook)
         local -a _op_arguments
         _op_arguments=(
-          "webhookId=:[PATH] The webhook ID"
+          "webhookId=:[PATH] The ID of the webhook"
                     )
         _describe -t actions 'operations' _op_arguments -S '' && ret=0
         ;;

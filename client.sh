@@ -8,7 +8,7 @@
 # ! swagger-codegen (https://github.com/swagger-api/swagger-codegen)
 # ! FROM SWAGGER SPECIFICATION IN JSON.
 # !
-# ! Generated on: 2017-09-08T14:02:08.289-07:00
+# ! Generated on: 2017-09-08T14:03:42.216-07:00
 # !
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -700,7 +700,7 @@ print_deleteWebhook_help() {
     echo -e "$(tput bold)$(tput setaf 7)deleteWebhook - Delete a webhook by ID$(tput sgr0)"
     echo -e ""
     echo -e "$(tput bold)$(tput setaf 7)Parameters$(tput sgr0)"
-    echo -e "  * $(tput setaf 2)webhookId$(tput sgr0) $(tput setaf 4)[String]$(tput sgr0) $(tput setaf 1)(required)$(tput sgr0)$(tput sgr0) - The webhook ID $(tput setaf 3)Specify as: webhookId=value$(tput sgr0)" | fold -sw 80 | sed '2,$s/^/    /'
+    echo -e "  * $(tput setaf 2)webhookId$(tput sgr0) $(tput setaf 4)[String]$(tput sgr0) $(tput setaf 1)(required)$(tput sgr0)$(tput sgr0) - The ID of the webhook $(tput setaf 3)Specify as: webhookId=value$(tput sgr0)" | fold -sw 80 | sed '2,$s/^/    /'
     echo ""
     echo -e "$(tput bold)$(tput setaf 7)Responses$(tput sgr0)"
     case 204 in
@@ -774,7 +774,7 @@ print_getWebhook_help() {
     echo -e "$(tput bold)$(tput setaf 7)getWebhook - Get a webhook by ID$(tput sgr0)"
     echo -e ""
     echo -e "$(tput bold)$(tput setaf 7)Parameters$(tput sgr0)"
-    echo -e "  * $(tput setaf 2)webhookId$(tput sgr0) $(tput setaf 4)[String]$(tput sgr0) $(tput setaf 1)(required)$(tput sgr0)$(tput sgr0) - The webhook ID $(tput setaf 3)Specify as: webhookId=value$(tput sgr0)" | fold -sw 80 | sed '2,$s/^/    /'
+    echo -e "  * $(tput setaf 2)webhookId$(tput sgr0) $(tput setaf 4)[String]$(tput sgr0) $(tput setaf 1)(required)$(tput sgr0)$(tput sgr0) - The ID of the webhook $(tput setaf 3)Specify as: webhookId=value$(tput sgr0)" | fold -sw 80 | sed '2,$s/^/    /'
     echo ""
     echo -e "$(tput bold)$(tput setaf 7)Responses$(tput sgr0)"
     case 200 in
@@ -900,7 +900,7 @@ print_patchWebhook_help() {
     echo -e "$(tput bold)$(tput setaf 7)patchWebhook - Modify a webhook by ID$(tput sgr0)"
     echo -e ""
     echo -e "$(tput bold)$(tput setaf 7)Parameters$(tput sgr0)"
-    echo -e "  * $(tput setaf 2)webhookId$(tput sgr0) $(tput setaf 4)[String]$(tput sgr0) $(tput setaf 1)(required)$(tput sgr0)$(tput sgr0) - The webhook ID $(tput setaf 3)Specify as: webhookId=value$(tput sgr0)" | fold -sw 80 | sed '2,$s/^/    /'
+    echo -e "  * $(tput setaf 2)webhookId$(tput sgr0) $(tput setaf 4)[String]$(tput sgr0) $(tput setaf 1)(required)$(tput sgr0)$(tput sgr0) - The ID of the webhook $(tput setaf 3)Specify as: webhookId=value$(tput sgr0)" | fold -sw 80 | sed '2,$s/^/    /'
     echo -e "  * $(tput setaf 2)body$(tput sgr0) $(tput setaf 4)[application/json]$(tput sgr0) $(tput setaf 1)(required)$(tput sgr0)$(tput sgr0) - http://jsonpatch.com/" | fold -sw 80 | sed '2,$s/^/    /'
     echo -e ""
     echo ""
